@@ -2,10 +2,7 @@
   max-width: 980px;
   position: relative;
   margin: 0 auto;
-}
-
-.body-wrapper {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main__wrapper .slick-track:nth-child(1) {
@@ -73,6 +70,11 @@
 
   .slick-slider {
     max-height: 400px;
+  }
+
+  .footer__contacts {
+    flex-direction: column;
+    align-items: center;
   }
 
 }

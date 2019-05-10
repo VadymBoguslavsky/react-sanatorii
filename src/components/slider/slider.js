@@ -15,10 +15,9 @@ class SimpleSlider extends React.Component {
         infinite: true,
         draggable: true,
       };
-      console.log(images)
       const image = images.map((image,index)=>{
         return (
-          <div className='slider'>
+          <div key={index} className='slider'>
             <img className='slider-images' key={index} src={image}   alt="" />
           </div>
         )

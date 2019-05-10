@@ -11,7 +11,6 @@
   padding: 20px 20px;
   text-decoration: none;
   color: rgb(0, 112, 129);
-  font-family: Ubuntu, sans-serif;
   font-weight: bold;
 }
 
@@ -107,7 +106,7 @@
 .logo {
   height: 61px;
   width: 200px;
-  background-position-x: 121px;
+  background-position-x: 140px;
   background-image: url('../../assets/img/files/logo-min.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -152,11 +151,6 @@
   height: 35px;
 }
 
-
-#myDIV {
-  display: none;
-}
-
 #myDIV .phone__number {
   position: absolute;
   width: 185px;
@@ -166,10 +160,10 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  border: 2px solid #00858c;
-  -webkit-box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
-  box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 10px 40px 10px #d4d8db;
+  -moz-box-shadow: -1px 10px 40px 10px #d4d8db;
+  box-shadow: -1px 10px 40px 10px #d4d8db;
 }
 
 #myDIV .phone__number a {
@@ -180,6 +174,23 @@
   font-weight: bold;
 }
 /* 48em = 768px */
+.menu-list--active {
+    color: cornflowerblue;
+    font-weight: bold;
+    position: relative;
+}
+.menu-list--active:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  color: #3e4056 !important;
+  font-weight: bold;
+  height: 5px;
+  background: linear-gradient(90deg, #f87b59, #ec5068);
+  left: 0;
+  bottom: 0px;
+}
+
 
 @media (min-width: 847px) {
   .header li {
