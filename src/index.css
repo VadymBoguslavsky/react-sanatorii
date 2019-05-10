@@ -67,11 +67,6 @@
     left: 0;
   }
 
-  .footer {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
   .slider-images {
     height: 350px;
   }

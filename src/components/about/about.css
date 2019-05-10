@@ -24,7 +24,6 @@
 .menu__about ul {
   background-color: #f2f8f9;
   list-style: none;
-  min-width: 300px;
   padding: 30px 10px;
   margin-right: 10px;
 }
