@@ -42,7 +42,8 @@ render(){
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
         <ul className="menu" onClick={this.activeMenuLinks}>
           <li>
-            <a  onClick={this.toggleClass}
+            <a  className='menu-list--active'
+                onClick={this.toggleClass}
                 href="#contacts">Контакти</a>
           </li>
           <li>
@@ -52,11 +53,6 @@ render(){
           <li>
             <a href="#about__san"
                onClick={this.toggleClass}>Про Джерельний</a>
-          </li>
-          <li>
-            <a className='menu-list--active'
-               href="./#"
-               onClick={this.toggleClass}>Галерея</a>
           </li>
         </ul>
       </header>
