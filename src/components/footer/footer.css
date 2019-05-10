@@ -1,0 +1,91 @@
+.mtc, .kievstar, .vodaphone, .email__link {
+  position: relative;
+}
+
+.kievstar::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  left: -25px;
+  height: 16px;
+  background-image: url("../../assets/img/files/kyivstar-s.jpg")
+}
+.vodaphone::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  left: -25px;
+  height: 16px;
+  background-size: cover;
+  background-image: url("../../assets/img/files/vodaphone.png")
+}
+
+.mtc::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  left: -25px;
+  height: 16px;
+  background-image: url("../../assets/img/files/mts-s.jpg")
+}
+
+.footer {
+  background-color: #f2f8f9;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer .phone__number {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+
+.footer .phone__number a {
+  margin: 10px auto;
+  color: #676b6d;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.net__contact {
+  color: #676b6d;
+  font-size: 16px;
+}
+
+.net__contact p {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.net__contact>p::before {
+  position: absolute;
+  content: "";
+  background-size: contain;
+  background-image: url("../../assets/img/files/skype.png");
+  height: 20px;
+  width: 20px;
+  left: -28px;
+}
+
+.net__contact a {
+  color: #676b6d;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.email__link::before {
+  content: "";
+  background-image: url("../../assets/img/files/email-icon.png");
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  left: -28px;
+}

@@ -1,0 +1,102 @@
+.about {
+  border-top: 2px solid rgba(0, 112, 129, 0.9);
+  font-family: Ubuntu, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#about__san {
+  color: #00858c;
+}
+
+.text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about__img {
+  height: 500px;
+  background-image: url("../../assets/img/full/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu__about ul {
+  background-color: #f2f8f9;
+  list-style: none;
+  min-width: 300px;
+  padding: 30px 10px;
+  margin-right: 10px;
+}
+
+.menu__about ul li {
+  position: relative;
+  margin: 40px 25px;
+}
+
+.decor::before {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: rgba(204, 204, 204, 0.5);
+  position: absolute;
+  width: 100%;
+  top: -20px;
+}
+
+.menu__about ul li a {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  color: #676b6d;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu__about ul li a:hover {
+  color: #00858c
+}
+
+.text__about {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 25px 25px 50px 25px;
+  color: #313131;
+}
+
+.text__about h1 {
+  color: #00858c;
+}
+
+.text__wrapper {
+  max-width: 900px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+.table td, .table th {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.table th {
+  background-color: lightgrey;
+  color: #676b6d;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.text__wrapper .phone__number a {
+  font-weight: bold;
+  padding: 0 10px;
+  color: #676b6d;
+  text-decoration: none;
+}
+
+.text__wrapper .phone__number a:nth-child(2) {
+  border-right: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+}

@@ -75,7 +75,7 @@
   top: 57px;
   justify-content: center;
   position: absolute;
-  z-index: 1;
+  z-index: 3;
 }
 
 .header .menu-btn:checked~.menu-icon .navicon {
@@ -94,6 +94,91 @@
   top: 0;
 }
 
+
+.top {
+  position: absolute;
+  background-color: white;
+  z-index: 10;
+  opacity: 0.9;
+  width: 100%;
+  height: 25px;
+}
+
+.logo {
+  height: 61px;
+  width: 200px;
+  background-position-x: 121px;
+  background-image: url('../../assets/img/files/logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #00858c;
+  width: 100%;
+  height: 100%;
+}
+
+.header__text p, .menu__list li a {
+  opacity: 1;
+}
+
+.menu {
+  text-align: right;
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  flex-direction: row-reverse
+}
+
+.call_us {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  cursor: pointer;
+  background-image: url('../../assets/img/files/phonecall.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+}
+
+
+#myDIV {
+  display: none;
+}
+
+#myDIV .phone__number {
+  position: absolute;
+  width: 185px;
+  text-align: center;
+  top: -5px;
+  right: 23px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid #00858c;
+  -webkit-box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 11px 48px 10px rgba(0, 0, 0, 0.75);
+}
+
+#myDIV .phone__number a {
+  margin: 5px;
+  color: #00858c;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
 /* 48em = 768px */
 
 @media (min-width: 847px) {

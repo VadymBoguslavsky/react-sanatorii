@@ -18,22 +18,15 @@ class SimpleSlider extends React.Component {
         arrows: true,
         infinite: true,
         draggable: true,
-        responsive: [
-         {
-          breakpoint: 1000,
-          settings: {
-           dots: true
-          }
-         }
-        ]
       };
       console.log(images)
       const image = images.map((image,index)=>{
         return (
+          <div className='slider'>
             <img className='slider-images' key={index} src={image}   alt="" />
+          </div>
         )
-        })
-      console.log(image)
+      })
       return (
         <Slider {...settings}>
           {image}
