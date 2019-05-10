@@ -10,10 +10,6 @@ const images = importAll(require.context('../../assets/img/full/', false, /\.(pn
 
 class SimpleSlider extends React.Component {
     render() {
-      const imgUrl = '../../assets/img/full/about.jpg'
-      const styles = {
-          backgroundImage: 'url(' + imgUrl + ')'
-      };
       var settings = {
         arrows: true,
         infinite: true,

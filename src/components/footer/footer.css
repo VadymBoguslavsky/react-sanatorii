@@ -22,7 +22,7 @@
   width: 16px;
   left: -25px;
   height: 16px;
-  background-image: url("../../assets/img/files/kyivstar-s.jpg")
+  background-image: url("../../assets/img/files/kyivstar-s-min.jpg")
 }
 .vodaphone::before {
   content: "";
@@ -31,7 +31,7 @@
   left: -25px;
   height: 16px;
   background-size: cover;
-  background-image: url("../../assets/img/files/vodaphone.png")
+  background-image: url("../../assets/img/files/vodaphone-min.png")
 }
 
 .mtc::before {
@@ -40,7 +40,7 @@
   width: 16px;
   left: -25px;
   height: 16px;
-  background-image: url("../../assets/img/files/mts-s.jpg")
+  background-image: url("../../assets/img/files/mts-s-min.jpg")
 }
 
 
@@ -75,7 +75,7 @@
   position: absolute;
   content: "";
   background-size: contain;
-  background-image: url("../../assets/img/files/skype.png");
+  background-image: url("../../assets/img/files/skype-min.png");
   height: 20px;
   width: 20px;
   left: -28px;
@@ -89,7 +89,7 @@
 
 .email__link::before {
   content: "";
-  background-image: url("../../assets/img/files/email-icon.png");
+  background-image: url("../../assets/img/files/email-icon-min.png");
   position: absolute;
   width: 20px;
   height: 20px;
