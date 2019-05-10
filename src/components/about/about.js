@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-scroll";
 
 import './about.css'
 
@@ -9,12 +10,53 @@ const About = () => {
       <div className="text">
         <div className="menu__about">
           <ul>
-            <li><a href="#services">Послуги</a></li>
-            <li className="decor"><a href="#recovery">Лікування та оздоровлення</a></li>
-            <li className="decor"><a href="#entertainment">Розваги і спорт</a></li>
-            <li className="decor"><a href="#live">Проживання</a></li>
-            <li className="decor"><a href="#food">Харчування</a></li>
-            <li className="decor"><a href="#contacts">Контакти</a></li>
+            <Link to="recovery"
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration= {500}>Лікування та оздоровлення</Link>
+            <li>
+              <Link to="services"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration= {500}>Послуги</Link>
+            </li>
+            <li className="decor">
+              <Link to="recovery"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration= {500}>Лікування та оздоровлення</Link>
+            </li>
+            <li className="decor">
+              <Link to="entertainment"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration= {500}>Розваги і спорт</Link>
+            </li>
+            <li className="decor">
+              <Link to="live"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration= {500}>Проживання</Link>
+            </li>
+            <li className="decor">
+              <Link to="food"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration= {500}>Харчування</Link>
+            </li>
+            <li className="decor">
+              <Link to="contacts"
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration= {500}>Контакти</Link>
+            </li>
           </ul>
         </div>
         <div className="about__img"></div>

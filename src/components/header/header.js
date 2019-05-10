@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from "react-scroll";
 
 import './header.css';
 
@@ -18,6 +19,7 @@ class Header extends Component {
           for(let i = 0; i<main.length; i++){
             let all = main[i];
             all.className = ''
+            all.scrollIntoView({behavior: "smooth"})
       };
       e.target.className = 'menu-list--active'
     }
@@ -42,17 +44,29 @@ render(){
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
         <ul className="menu" onClick={this.activeMenuLinks}>
           <li>
-            <a  className='menu-list--active'
-                onClick={this.toggleClass}
-                href="#contacts">Контакти</a>
+            <Link to="contacts"
+                  className='menu-list--active'
+                  onClick={this.toggleClass}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration= {500}>Контакти</Link>
           </li>
           <li>
-            <a href="#prices"
-               onClick={this.toggleClass}>Ціни</a>
+            <Link to="prices"
+               onClick={this.toggleClass}
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration= {500}>Ціни</Link>
           </li>
           <li>
-            <a href="#about__san"
-               onClick={this.toggleClass}>Про Джерельний</a>
+            <Link to="about__san"
+               onClick={this.toggleClass}
+               spy={true}
+               smooth={true}
+               offset={-70}
+               duration= {500}>Про Джерельний</Link>
           </li>
         </ul>
       </header>
