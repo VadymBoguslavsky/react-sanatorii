@@ -3,14 +3,17 @@ import { Link } from "react-scroll";
 
 let menuItems = [
   {
+    id:1,
     name: 'Контакти',
     path: 'contacts'
   },
   {
+    id:2,
     name: 'Ціни',
     path: 'prices'
   },
   {
+    id:3,
     name: 'Про Джерельний',
     path: 'about__san'
   }
@@ -21,10 +24,14 @@ export default class MenuLinks extends React.Component {
     activeButton: null
   }
   render(){
-    const menuElements = menuItems.map((link, index) =>
-      <li key={index}
-          // className={'menu-list--active'}
-          onClick = {this.handleClick.bind(this.index)}>
+    const menuElements = menuItems.map((link) =>
+      <li key={link.id}
+          className={`${this.state.activeButton === link.id ? 'menu-link--active' : ''}`}
+          onClick = {()=>{
+            this.setState({
+              activeButton: link.id
+            })
+          }}>
             <Link to={link.path}
                spy={true}
                smooth={true}
@@ -39,10 +46,5 @@ export default class MenuLinks extends React.Component {
       </ul>
     )
   }
-  handleClick = (e) => {
-    this.setState({
-      activeButton: this.state.activeButton === e.target ? null : e.target
-    })
-    console.log(e)
-  }
+
 }
