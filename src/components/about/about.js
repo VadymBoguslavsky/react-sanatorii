@@ -3,13 +3,6 @@ import { Link } from "react-scroll";
 
 import './about.css'
 
-const ShowYear = () => {
-  let date = new Date();
-      return (
-        <span>{date.getFullYear()}</span>)
-}
-
-
 const About = () => {
 
   return (
@@ -132,7 +125,7 @@ const About = () => {
           </div>
           <div className="price">
             <h1 id="prices">
-              Офіційні ціни на <ShowYear/> путівки в санаторій «Джерельний» м.Трускавець
+              Офіційні ціни на {new Date().getFullYear()} путівки в санаторій «Джерельний» м.Трускавець
             </h1>
             <table className="table">
               <tbody>
