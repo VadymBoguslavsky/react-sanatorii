@@ -13,7 +13,7 @@ class SimpleSlider extends React.Component {
       var settings = {
         arrows: true,
         infinite: true,
-        draggable: true,
+        draggable: true
       };
       const image = images.map((image,index)=>{
         return (

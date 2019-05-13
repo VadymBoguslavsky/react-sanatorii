@@ -19,7 +19,6 @@ class Header extends Component {
           for(let i = 0; i<main.length; i++){
             let all = main[i];
             all.className = ''
-            all.scrollIntoView({behavior: "smooth"})
       };
       e.target.className = 'menu-list--active'
     }
@@ -42,7 +41,7 @@ render(){
         <div className="logo"><a href="./">«Джерельний»</a></div>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
-        <ul className="menu" onClick={this.activeMenuLinks}>
+        <ul className="menu">
           <li>
             <Link to="contacts"
                   className='menu-list--active'
