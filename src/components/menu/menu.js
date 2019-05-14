@@ -4,23 +4,17 @@ import { Link } from "react-scroll";
 export default class Menu extends Component {
 
   render(){
-    const {menuArray, className} = this.props
-    const menuElements = menuArray.map((link, index) =>
-      <li key={index}
-          className={className.classname}>
-        <Link to={link.path}
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration= {500}>
-          {link.name}
-        </Link>
-      </li>
-    )
+    const { className, linkPath, linkName} = this.props
     return (
-      <ul>
-        {menuElements}
-      </ul>
+        <li className = {className.className}>
+          <Link to={linkPath}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration= {500}>
+            {linkName}
+          </Link>
+        </li>
     )
   }
 }

@@ -1,6 +1,18 @@
 import React, {Component} from 'react';
-import MenuLinks from './menu'
+import menuItems from './menu-items'
+import Menu from '../menu/menu'
 import './header.css';
+
+const menuLinks = menuItems.map((link)=>{
+  return (
+      <Menu key={link.id}
+            className={{
+              className: null
+            }}
+            linkPath={link.path}
+            linkName={link.name}/>
+  )
+})
 
 class Header extends Component {
 
@@ -32,7 +44,9 @@ class Header extends Component {
         <div className="logo"><a href="./">«Джерельний»</a></div>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
-        <MenuLinks/>
+        <ul className="menu">
+          {menuLinks}
+        </ul>
       </header>
     );
   }

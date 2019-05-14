@@ -1,34 +1,34 @@
 const menuItems = [
     {
-      id:1,
+      id:10,
       name: 'Послуги',
       path: 'services'
     },
     {
-      id:2,
+      id:20,
       name: 'Лікування та оздоровлення',
       path: 'recovery'
     },
     {
-      id:3,
+      id:30,
       name: 'Розваги і спорт',
       path: 'entertainment'
     },
     {
-      id:3,
+      id:40,
       name: 'Проживання',
       path: 'live'
     },
     {
-      id:3,
+      id:50,
       name: 'Харчування',
       path: 'food'
     },
     {
-      id:3,
-      name: 'contacts',
-      path: 'Контакти'
+      id:60,
+      name: 'Контакти',
+      path: 'contacts'
     }
   ]
-  
+
 export default menuItems;

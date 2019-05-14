@@ -4,14 +4,22 @@ import menuItems from './menu-items'
 import './about.css'
 
 const About = () => {
-
+  const menuLinks = menuItems.map((link)=>{
+    return (
+        <Menu key={link.id}
+              className={{className: 'decor'}}
+              linkPath={link.path}
+              linkName={link.name}/>
+    )
+  })
   return (
     <div className = 'about'>
       <h1 id="about__san">Про Джерельний</h1>
       <div className="text">
         <div className="menu__about">
-          <Menu menuArray={menuItems}
-                className={{classname:'decor'}}/>
+          <ul>
+            {menuLinks}
+          </ul>
         </div>
         <div className="about__img"></div>
       </div>
