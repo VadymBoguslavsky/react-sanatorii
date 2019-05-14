@@ -174,12 +174,14 @@
   font-weight: bold;
 }
 /* 48em = 768px */
-.menu-list--active {
+
+.menu-list {
     color: cornflowerblue;
     font-weight: bold;
     position: relative;
 }
-.menu-list--active:after {
+
+.menu-list:after {
   position: absolute;
   content: '';
   width: 100%;
