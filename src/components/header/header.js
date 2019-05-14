@@ -1,18 +1,7 @@
 import React, {Component} from 'react';
-import menuItems from './menu-items'
-import Menu from '../menu/menu'
-import './header.css';
+import MenuLinks from './menu-items'
 
-const menuLinks = menuItems.map((link)=>{
-  return (
-      <Menu key={link.id}
-            className={{
-              className: null
-            }}
-            linkPath={link.path}
-            linkName={link.name}/>
-  )
-})
+import './header.css';
 
 class Header extends Component {
 
@@ -45,7 +34,7 @@ class Header extends Component {
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
         <ul className="menu">
-          {menuLinks}
+          <MenuLinks/>
         </ul>
       </header>
     );

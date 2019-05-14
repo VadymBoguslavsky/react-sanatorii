@@ -1,3 +1,6 @@
+import React, {Component} from 'react'
+import Menu from '../menu/menu'
+
 const menuItems = [
   {
     id:1,
@@ -15,4 +18,28 @@ const menuItems = [
     path: 'about__san'
   }
 ]
-export default menuItems;
+
+class MenuLinks extends Component {
+  state = {
+    isActive: null
+  }
+  render(){
+    const menuLinks = menuItems.map((link)=>{
+      return (
+          <Menu key={link.id}
+                className={this.state.isActive === link.id ? 'menu-list' : ''}
+                onClick = {()=>{
+                  this.setState({
+                    isActive: link.id
+                  })
+                }}
+                linkPath={link.path}
+                linkName={link.name}/>
+      )
+    })
+    return menuLinks
+  }
+}
+
+
+export default MenuLinks;

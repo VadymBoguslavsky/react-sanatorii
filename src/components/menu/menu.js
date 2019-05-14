@@ -4,10 +4,12 @@ import { Link } from "react-scroll";
 export default class Menu extends Component {
 
   render(){
-    const { className, linkPath, linkName} = this.props
+    const { className =  "", onClick, linkPath, linkName} = this.props
     return (
-        <li className = {className.className}>
+        <li>
           <Link to={linkPath}
+            className = {className}
+            onClick={onClick}
             spy={true}
             smooth={true}
             offset={-70}

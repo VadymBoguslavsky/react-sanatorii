@@ -7,7 +7,7 @@ const About = () => {
   const menuLinks = menuItems.map((link)=>{
     return (
         <Menu key={link.id}
-              className={{className: 'decor'}}
+              className='decor'
               linkPath={link.path}
               linkName={link.name}/>
     )
