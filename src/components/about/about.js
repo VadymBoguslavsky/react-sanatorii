@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from "react-scroll";
-
+import Menu from '../menu/menu'
+import menuItems from './menu-items'
 import './about.css'
 
 const About = () => {
@@ -10,53 +10,10 @@ const About = () => {
       <h1 id="about__san">Про Джерельний</h1>
       <div className="text">
         <div className="menu__about">
-          <ul>
-            <li>
-              <Link to="services"
-                 spy={true}
-                 smooth={true}
-                 offset={-70}
-                 duration= {500}>Послуги</Link>
-            </li>
-            <li className="decor">
-              <Link to="recovery"
-                 spy={true}
-                 smooth={true}
-                 offset={-70}
-                 duration= {500}>Лікування та оздоровлення</Link>
-            </li>
-            <li className="decor">
-              <Link to="entertainment"
-                 spy={true}
-                 smooth={true}
-                 offset={-70}
-                 duration= {500}>Розваги і спорт</Link>
-            </li>
-            <li className="decor">
-              <Link to="live"
-                 spy={true}
-                 smooth={true}
-                 offset={-70}
-                 duration= {500}>Проживання</Link>
-            </li>
-            <li className="decor">
-              <Link to="food"
-                 spy={true}
-                 smooth={true}
-                 offset={-70}
-                 duration= {500}>Харчування</Link>
-            </li>
-            <li className="decor">
-              <Link to="contacts"
-                 spy={true}
-                 smooth={true}
-                 offset={-70}
-                 duration= {500}>Контакти</Link>
-            </li>
-          </ul>
+          <Menu menuArray={menuItems}
+                className={{classname:'decor'}}/>
         </div>
         <div className="about__img"></div>
-
       </div>
       <div className="text__about">
         <div className="text__wrapper">

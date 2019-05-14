@@ -6,8 +6,6 @@ function importAll(r) {
 }
 const images = importAll(require.context('../../assets/img/full/', false, /\.(png|jpe?g|svg)$/));
 
-
-
 class SimpleSlider extends React.Component {
     render() {
       var settings = {

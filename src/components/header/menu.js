@@ -1,25 +1,9 @@
 import React, {Component} from 'react'
 import { Link } from "react-scroll";
+import menuItems from './menu-items'
 import './header.css';
-let menuItems = [
-  {
-    id:1,
-    name: 'Контакти',
-    path: 'contacts'
-  },
-  {
-    id:2,
-    name: 'Ціни',
-    path: 'prices'
-  },
-  {
-    id:3,
-    name: 'Про Джерельний',
-    path: 'about__san'
-  }
-]
 
-export default class MenuLinks extends React.Component {
+export default class MenuLinks extends Component {
   state = {
     activeButton: null
   }
