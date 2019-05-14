@@ -11,11 +11,6 @@ const About = () => {
       <div className="text">
         <div className="menu__about">
           <ul>
-            <Link to="recovery"
-               spy={true}
-               smooth={true}
-               offset={-70}
-               duration= {500}>Лікування та оздоровлення</Link>
             <li>
               <Link to="services"
                  spy={true}
