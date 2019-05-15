@@ -1,3 +1,6 @@
+import React from 'react';
+import Menu from '../menu/menu'
+
 const menuItems = [
     {
       id:10,
@@ -30,5 +33,12 @@ const menuItems = [
       path: 'contacts'
     }
   ]
-
-export default menuItems;
+  const menuLinks = menuItems.map((link)=>{
+    return (
+        <Menu key={link.id}
+              className='decor'
+              linkPath={link.path}
+              linkName={link.name}/>
+    )
+  })
+export default menuLinks;
