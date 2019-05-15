@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import MenuLinks from './menu-items'
-import ChangeLang from '../language/change-language'
-import './header.css';
-import { useTranslation } from 'react-i18next';
 
 class Header extends Component {
 
@@ -35,20 +31,4 @@ render(){
   }
 }
 
-const HeaderWrapper = () => {
-  const { t } = useTranslation();
-  return (
-    <header className="header">
-      <Header/>
-      <div className="logo"><a href="./">{t('header.title')}</a></div>
-      <input className="menu-btn" type="checkbox" id="menu-btn" />
-      <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
-      <ul className="menu">
-        <MenuLinks/>
-        <ChangeLang/>
-      </ul>
-    </header>
-  );
-}
-
-export default HeaderWrapper;
+export default Header;
