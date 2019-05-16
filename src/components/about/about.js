@@ -1,5 +1,5 @@
 import React from 'react';
-import menuLinks from './menu-items'
+import MenuLinks from './menu-items'
 import Table from './table'
 import MainInfo from './main-info'
 
@@ -15,7 +15,7 @@ const About = () => {
       <div className="text">
         <div className="menu__about">
           <ul>
-            {menuLinks}
+            <MenuLinks/>
           </ul>
         </div>
         <div className="about__img"></div>

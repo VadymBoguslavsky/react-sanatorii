@@ -1,5 +1,6 @@
-import React from 'react';
+import React , { Component }from 'react';
 import Menu from '../menu/menu'
+import i18n from 'i18next'
 
 const menuItems = [
     {
@@ -33,12 +34,21 @@ const menuItems = [
       path: 'contacts'
     }
   ]
-  const menuLinks = menuItems.map((link)=>{
-    return (
-        <Menu key={link.id}
-              className='decor'
-              linkPath={link.path}
-              linkName={link.name}/>
-    )
-  })
-export default menuLinks;
+
+class MenuLinks extends Component {
+  render(){
+    const menuLinks = menuItems.map((link)=>{
+      const linkName = {
+        name: i18n.t(`menu.${link.path}`)
+      }
+      return (
+          <Menu key={link.id}
+                className='decor'
+                linkPath={link.path}
+                linkName={linkName.name}/>
+      )
+    })
+    return menuLinks
+  }
+}
+export default MenuLinks;

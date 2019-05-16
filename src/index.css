@@ -23,6 +23,24 @@
   line-height: 2;
 }
 
+.change-language{
+  display: flex;
+  position: absolute;
+  right: 80px;
+  top: 20px;
+
+}
+
+.change-language button{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 112, 129);
+  font-weight: bold;
+}
 
 @media (min-width:1001px) {
   .about__img {
@@ -77,4 +95,9 @@
     align-items: center;
   }
 
+  .change-language{
+    position: static;
+    cursor: pointer;
+    margin: 20px 0;
+  }
 }
