@@ -1,12 +1,14 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import './footer.css'
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <footer className ="footer">
-        <p className='footer__text'>Санаторий “Джерельний” контакты:</p>
+        <p className='footer__text'>{t('about.our-contacts')}:</p>
         <div className='footer__contacts'>
           <div className="phone__number">
             <a className="kievstar" href="tel:+38 (097) 90 42 553">+38 (097) 90 42 553</a>

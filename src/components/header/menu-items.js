@@ -1,10 +1,11 @@
 import React, {Component} from 'react'
 import Menu from '../menu/menu'
+import i18n from 'i18next'
 
 const menuItems = [
   {
     id:1,
-    name: 'Контакти',
+    name: 'Контакtи',
     path: 'contacts'
   },
   {
@@ -25,6 +26,9 @@ class MenuLinks extends Component {
   }
   render(){
     const menuLinks = menuItems.map((link)=>{
+      const linkName = {
+        name: i18n.t(`header.${link.path}`)
+      }
       return (
           <Menu key={link.id}
                 className={this.state.isActive === link.id ? 'menu-list' : ''}
@@ -34,7 +38,7 @@ class MenuLinks extends Component {
                   })
                 }}
                 linkPath={link.path}
-                linkName={link.name}/>
+                linkName={linkName.name}/>
       )
     })
     return menuLinks
