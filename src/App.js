@@ -7,7 +7,7 @@ import Footer from './components/footer/footer.js'
 import 'normalize.css';
 
 import { I18nextProvider } from 'react-i18next';
-import i18n from './utils/i18n';
+import i18n from './utils/i18n.js';
 
 function App() {
   return (
