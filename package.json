@@ -15,7 +15,6 @@
     "react-scripts": "3.0.0",
     "react-scroll": "^1.7.11",
     "react-slick": "^0.24.0",
-    "react-swipeable-views": "^0.13.1",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
