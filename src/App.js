@@ -3,11 +3,10 @@ import About from './components/about/about.js';
 import HeaderWrapper from './components/header/header-wrapper.js'
 import SimpleSlider from './components/slider/slider.js'
 import Footer from './components/footer/footer.js'
-
+import i18n from './utils/i18n';
 import 'normalize.css';
 
 import { I18nextProvider } from 'react-i18next';
-import i18n from './utils/i18n.js';
 
 function App() {
   return (
