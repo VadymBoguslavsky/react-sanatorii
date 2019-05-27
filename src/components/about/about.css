@@ -20,19 +20,19 @@
   background-size: cover;
 }
 
-.menu__about ul {
+.menu__list {
   background-color: #f2f8f9;
   list-style: none;
   padding: 30px 10px;
   margin-right: 10px;
 }
 
-.menu__about ul li {
+.menu__list li {
   position: relative;
   margin: 40px 25px;
 }
 
-.decor::before {
+.menu__list li:not(:first-child)::before {
   content: "";
   display: block;
   height: 2px;
@@ -42,14 +42,15 @@
   top: -20px;
 }
 
-.menu__about ul li a {
+.decor {
   font-weight: bold;
   color: #4d4e65;
   text-transform: uppercase;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.menu__about ul li a:hover {
+.decor:hover {
   color: #00858c
 }
 

@@ -14,7 +14,7 @@ const About = () => {
       <h1 id="about__san">{t('about.title')}</h1>
       <div className="text">
         <div className="menu__about">
-          <ul>
+          <ul className = 'menu__list'>
             <MenuLinks/>
           </ul>
         </div>

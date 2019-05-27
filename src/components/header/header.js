@@ -6,16 +6,16 @@ class Header extends Component {
     showPhones: false
   }
 
-showPhonesOnClick = () => {
- this.setState({
-   showPhones: !this.state.showPhones
- })
+showPhonesOnClick = (e) => {
+  this.setState({
+    showPhones: !this.state.showPhones
+  })
 }
 
 render(){
 
   return (
-      <div className="call_us" onClick={this.showPhonesOnClick}>
+      <div id="call_us" onClick={this.showPhonesOnClick}>
         {this.state.showPhones ?
           <div id="myDIV">
             <div className="phone__number">

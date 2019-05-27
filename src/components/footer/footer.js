@@ -15,7 +15,7 @@ const Footer = () => {
             <a className="kievstar" href="tel:+38 (067) 75 76 844">+38 (067) 75 76 844</a>
             <a className="vodaphone" href="tel:+38 (066) 73 55 190">+38 (066) 73 55 190</a>
             <a className="mtc" href="tel:+38 (095) 90 30 126">+38 (095) 90 30 126</a>
-            <a href="tel:(032) 47 59 805">(032) 47 59 805</a>
+            <a className="vintage" href="tel:(032) 47 59 805">(032) 47 59 805</a>
           </div>
           <div className="net__contact">
             <p>guapa1211</p>

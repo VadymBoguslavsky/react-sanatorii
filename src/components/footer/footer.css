@@ -13,7 +13,7 @@
   justify-content: space-evenly;
 }
 
-.mtc, .kievstar, .vodaphone, .email__link {
+.mtc, .kievstar, .vodaphone, .email__link, .vintage {
   position: relative;
 }
 
@@ -44,6 +44,16 @@
   background-image: url("../../assets/img/files/mts-s-min.jpg")
 }
 
+.vintage::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  left: -25px;
+  height: 16px;
+  background-size: cover;
+  background-image: url("../../assets/img/files/phone-outline-min.png")
+}
+
 
 .footer .phone__number {
   margin: 0;
@@ -53,7 +63,7 @@
 }
 
 .footer .phone__number a {
-  margin: 10px auto;
+  margin: 10px 0;
   color: #676b6d;
   text-decoration: none;
   font-size: 16px;
