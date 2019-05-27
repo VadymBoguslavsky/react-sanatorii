@@ -10,14 +10,16 @@ import { I18nextProvider } from 'react-i18next';
 
 function App() {
   return (
-    <div className = "App">
-      <I18nextProvider i18n={i18n}>
+    <I18nextProvider i18n={i18n}>
+
+      <div className = "App">
         <HeaderWrapper/>
         <SimpleSlider/>
         <About/>
         <Footer/>
-      </I18nextProvider>
-    </div>
+      </div>
+    </I18nextProvider>
+
   );
 }
 
