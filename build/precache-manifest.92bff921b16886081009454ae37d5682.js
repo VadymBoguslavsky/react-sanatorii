@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11d7d5f1bf3a01b7d7eb50bf912e5039",
+    "revision": "aaef54f86139d5636aa594ecaa9a03a4",
     "url": "/react-sanatorii/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-sanatorii/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "ddada7901819598def76",
+    "revision": "60276eb28bcc742f929c",
     "url": "/react-sanatorii/static/css/main.9a8dbc98.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-sanatorii/static/js/2.74f03ed5.chunk.js"
   },
   {
-    "revision": "ddada7901819598def76",
-    "url": "/react-sanatorii/static/js/main.19073e5b.chunk.js"
+    "revision": "60276eb28bcc742f929c",
+    "url": "/react-sanatorii/static/js/main.ca258770.chunk.js"
   },
   {
     "revision": "c28152219bdc9a24c048",

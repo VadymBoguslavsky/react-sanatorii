@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-sanatorii/static/css/main.9a8dbc98.chunk.css",
-    "main.js": "/react-sanatorii/static/js/main.19073e5b.chunk.js",
-    "main.js.map": "/react-sanatorii/static/js/main.19073e5b.chunk.js.map",
+    "main.js": "/react-sanatorii/static/js/main.ca258770.chunk.js",
+    "main.js.map": "/react-sanatorii/static/js/main.ca258770.chunk.js.map",
     "runtime~main.js": "/react-sanatorii/static/js/runtime~main.9e8b4d35.js",
     "runtime~main.js.map": "/react-sanatorii/static/js/runtime~main.9e8b4d35.js.map",
     "static/css/2.764ccc25.chunk.css": "/react-sanatorii/static/css/2.764ccc25.chunk.css",
     "static/js/2.74f03ed5.chunk.js": "/react-sanatorii/static/js/2.74f03ed5.chunk.js",
     "static/js/2.74f03ed5.chunk.js.map": "/react-sanatorii/static/js/2.74f03ed5.chunk.js.map",
     "index.html": "/react-sanatorii/index.html",
-    "precache-manifest.c84498602943f836d55c6416dd6b32c8.js": "/react-sanatorii/precache-manifest.c84498602943f836d55c6416dd6b32c8.js",
+    "precache-manifest.92bff921b16886081009454ae37d5682.js": "/react-sanatorii/precache-manifest.92bff921b16886081009454ae37d5682.js",
     "service-worker.js": "/react-sanatorii/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/react-sanatorii/static/css/2.764ccc25.chunk.css.map",
     "static/css/main.9a8dbc98.chunk.css.map": "/react-sanatorii/static/css/main.9a8dbc98.chunk.css.map",

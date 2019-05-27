@@ -1,0 +1,43 @@
+{
+  "header": {
+    "title" : "«Dzherelny»",
+    "contacts" : "Contacts",
+    "prices" : "Prices",
+    "about__san" : "About Source"
+  },
+  
+  "about": {
+    "title" : "About Source",
+    "services-title" : "Services",
+    "services" : "Bedroom, medical building, pump room min. water, dining, sports and playgrounds, billiards, table tennis, sauna, parking lot.",
+    "recovery-title" : "Treatment and recovery",
+    "recovery" : "The medical base of the sanatorium provides the maximum opportunities for improvement, prevention and restoration the body through a wide range of physiotherapy procedures that meet the latest medical requirements.For holidaymakers the following types of treatment procedures are offered: various baths, diagnostics on the apparatus of ultrasound, massage, ozokerite, physical procedure, bowel flushing, blind sensing, hydrotherapy with mineral waters, including Naftuseyu, consultation of a urologist, an endocrinologist, a gastroenterologist and other specialists of high qualification. We also conduct rehabilitation of students in ATO, OS and revolution of dignity.",
+    "entertainment" : "Additional tourist excursions are provided. In the winter, near the sanatorium functions ski slope with lift 'Bukovytsia'. • Hiking - to the ski resort: 3 km. / 37 minutes. • By car - to the ski resort: 3.8 km / 10 minutes.",
+    "entertainment-title" : "Entertainment and Sports",
+    "live-title" : "Residence",
+    "live" : "One and two room rooms. There are rooms with one double bed, two single beds and three with single-seater beds",
+    "food-title" : "Food",
+    "food" : "Four-time meals, high quality. Bakery products are baked directly at the sanatorium 'Source' for special technology, as well as homemade sausages and other delicious Ukrainian cuisine and diets.",
+    "contacts-title" : "Contacts and location",
+    "contacts" : "Sanatorium 'Dzherelny' is located in a park-forest zone 1.5 km from the balneological resort Truskavets in the foothills Carpathians with Modric Address: Drohobych district, Madrychi village, st. Turbanyts'ka 1a. Lviv region, 82186. How to get there - by train or plane to Lviv, then by train or by bus to Truskavets (100 km) or by train (Kiev-Truskavets Dnipro-Truskavets) to Truskavets, then take the Stebnik-Borislav bus or taxi to sanatorium",
+    "prices-before" : "Official prices for",
+    "prices-after" :  "trips to the sanatorium 'Dzherelny' in Truskavets",
+    "appartments" : "Room Category",
+    "appartments-prices" : "Price for a man",
+    "appartments-for-two" : "Standard Double",
+    "appartments-for-three" : "Standard Triple",
+    "appartments-lux" : "Luxury",
+    "appartments-super-lux" : "Super Luxury",
+    "from" : "from",
+    "our-contacts" : "Sanatorium 'Dzherelny' contacts"
+  },
+
+  "menu" : {
+    "services": "Services",
+    "recovery": "Treatment and recovery",
+    "entertainment": "Entertainment and Sports",
+    "live": "Residence",
+    "food": "Food",
+    "contacts": "Contacts and location"
+  }
+}
