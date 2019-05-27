@@ -12,6 +12,7 @@
   text-decoration: none;
   color: rgb(0, 112, 129);
   font-weight: bold;
+  cursor: pointer
 }
 
 .header li a:hover, .header .menu-btn:hover {
