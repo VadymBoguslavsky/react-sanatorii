@@ -1,10 +1,10 @@
-import React from 'react';
-import About from './components/about/about.js';
+import React from 'react'
+import About from './components/about/about.js'
 import HeaderWrapper from './components/header/header-wrapper.js'
 import SimpleSlider from './components/slider/slider.js'
 import Footer from './components/footer/footer.js'
-import i18n from './utils/i18n';
-import 'normalize.css';
+import i18n from './components/utils/i18n'
+import 'normalize.css'
 
 import { I18nextProvider } from 'react-i18next';
 
